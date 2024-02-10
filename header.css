@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.box1-content h1{
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    letter-spacing: 5px;
+}
+
+.box1-content p{
+    color: rgb(85, 83, 83);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.box1-content
+.linkedin-icon,
+.github-icon{
+    margin-right: 10px;
+    margin-top: 10px;
+    vertical-align: bottom;
+    width: 25px;
+}
+
+.box1-content .img{
+     width: 300px;
+    border: 20px dashed rgb(164, 153, 192);
+    border-radius: 150px;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    padding-top: 5rem;
+}
+
+.html-svg,
+.css-svg,
+.js-svg{
+    width: 25px;
+}
+
+@media (max-width: 435px){
+
+    .box1{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .box1-content {
+        text-align: center;
+    }
+
+    .box1-content h1{
+        font-size: 2.50rem;
+        line-height: 2.75rem;
+        letter-spacing: 3px;
+    }
+
+    .box1-content p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .box1-content
+    .linkedin-icon,
+    .github-icon,
+    .html-svg,
+    .css-svg,
+    .js-svg{
+        width: 18px;
+    }
+    
+    .box1-content .img{
+        width: 150px;
+        border: 15px dashed rgb(164, 153, 192);
+   }
+
+   .box2{
+    gap: 1rem;
+    padding-top: 3rem;
+    }
+}
+
+@media (min-width: 436px) and (max-width: 767px){
+    .box1{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .box1-content {
+        text-align: center;
+    }
+
+    .box1-content h1{
+        font-size: 2.75rem;
+        line-height: 2.75rem;
+    }
+
+    .box1-content p{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .box1-content
+    .linkedin-icon,
+    .github-icon,
+    .html-svg,
+    .css-svg,
+    .js-svg{
+        width: 22px;
+    }
+
+    .box1-content .img{
+        width: 220px;
+        border: 15px dashed rgb(164, 153, 192);
+   }
+
+   .box2{
+    gap: 1rem;
+    padding-top: 3rem;
+    }
+}
